@@ -1,16 +1,52 @@
-# React + Vite
+# AnshDev Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal developer portfolio built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+AnshDev Studio showcases my projects, services, and skills as a frontend developer. It features a dark design with purple accents and a responsive layout.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive navigation with a mobile menu
+- Hero section
+- Services section
+- Projects showcase
+- About section
+- Contact section
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- HTML
+
+## Getting Started
+
+Clone the repository:
+
+git clone https://github.com/anshtyagi1130/anshdev-studio.git
+
+
+Navigate to the project folder:
+
+
+cd anshdev-studio
+
+Install dependencies:
+
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+
+## Author
+
+**Ansh Tyagi**
+
+- GitHub: [@anshtyagi1130](https://github.com/anshtyagi1130)
