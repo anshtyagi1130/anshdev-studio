@@ -269,7 +269,10 @@ function App() {
 
         {/*projects section*/}
 
-        <section id="projects" className="relative bg-[#080812] px-8 py-24 text-white md:px-16 lg:px-24">
+        <section
+          id="projects"
+          className="relative bg-[#080812] px-8 py-24 text-white md:px-16 lg:px-24"
+        >
           <h2 className="text-center text-4xl font-bold md:text-5xl">
             My Projects
           </h2>
@@ -278,26 +281,66 @@ function App() {
             A selection of projects I've built while learning and creating
             modern web experiences.
           </p>
-          <div className="mx-auto mt-16 max-w-md rounded-2xl border border-purple-500/30 bg-[#0D0D18] p-10 text-center transition-all duration-300 hover:-translate-y-2 hover:border-purple-500/60 hover:shadow-[0_0_30px_rgba(168,85,247,0.15)]">
-            <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl border border-purple-500/30 bg-purple-500/10 text-3xl">
-              🚀
+
+          <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2">
+
+            {/* AARYAVART FITNESS */}
+            <div className="group overflow-hidden rounded-2xl border border-purple-500/30 bg-[#0D0D18] transition-all duration-300 hover:-translate-y-2 hover:border-purple-500/70 hover:shadow-[0_0_30px_rgba(168,85,247,0.2)]">
+
+              <div className="flex h-52 items-center justify-center bg-linear-to-br from-gray-950 via-lime-950 to-black">
+                <span className="text-6xl">🏋️</span>
+              </div>
+
+              <div className="p-8">
+                <span className="text-xs font-semibold tracking-widest text-purple-400">
+                  FEATURED PROJECT
+                </span>
+
+                <h3 className="mt-3 text-2xl font-bold">
+                  AARYAVART FITNESS
+                </h3>
+
+                <p className="mt-3 text-sm leading-7 text-gray-400">
+                  A modern and responsive gym website featuring a premium
+                  dark theme, neon lime accents, services, pricing and contact
+                  sections.
+                </p>
+
+                <div className="mt-5 flex flex-wrap gap-2">
+                  {["React", "TypeScript", "Tailwind CSS"].map((skill) => (
+                    <span
+                      key={skill}
+                      className="rounded-full border border-purple-500/30 bg-purple-500/10 px-3 py-1 text-xs text-purple-300"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="mt-7 flex flex-wrap gap-4">
+                  <a
+                    href="https://aaryavart-fitness.vercel.app"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-lg bg-purple-600 px-5 py-3 text-sm font-semibold transition hover:bg-purple-500"
+                  >
+                    Live Demo →
+                  </a>
+
+                  <a
+                    href="https://github.com/anshtyagi1130/Aaryavart-fitness"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-lg border border-white/20 px-5 py-3 text-sm font-semibold transition hover:border-purple-400 hover:text-purple-300"
+                  >
+                    GitHub →
+                  </a>
+                </div>
+              </div>
             </div>
 
-            <h3 className="mb-3 text-2xl font-semibold text-white">
-              Projects Coming Soon
-            </h3>
-
-            <p className="text-sm leading-7 text-gray-400">
-              I'm currently building exciting web projects.
-              Check back soon to explore my work.
-            </p>
-
-            <span className="mt-6 inline-block rounded-full border border-purple-500/30 bg-purple-500/10 px-4 py-2 text-xs font-medium text-purple-300">
-              Work in Progress
-            </span>
           </div>
         </section>
-        <div className="h-px w-full bg-purple-500/70 shadow-[0_0_12px_rgba(168,85,247,0.8)]"></div>
 
         {/* ABOUT SECTION */}
         <section id="about" className="relative bg-[#080812] px-8 py-24 text-white md:px-16 lg:px-24">
